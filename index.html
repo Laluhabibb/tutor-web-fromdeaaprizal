@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lalu Habib Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/asset/icon/partner.png" alt="logo" class="logo-img">
+            <h1 class="logo-judul">LALU X</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a href="@mailto:habiblalu31@icloud.com">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="btn" onclick="redirIntagram()">Follow Saya</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="judul">Hello, Lalu Habib Affandi here!</p>
+            <P class="deskripsi">The Beginner Of Design Website</P>
+            <img src="/asset/foto/bee.jpg" alt="lalu" class="img-foto" />
+        </div>
+    </div>
+    <div class="parralax">
+        <div class="tentang">
+            <p class="judul">Saya Adalah Programmer</p>
+            <p class="deskripsi">Ngoding aja dulu, jagonya belakangan </p>
+            <div class="mt-10">
+                <button class="btn" onclick="redirWhatshapp()">Mari Kerjasama</button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="/asset/icon/24-hours.png" alt="test" class="icon">
+                    <p class="card-judul">Pelayanan Nonstop</p>
+                    <p class="card-deskripsi">Servis 24 jam nonstop ketika anda membutuhkan bantuan</p>
+                </div>
+                <div class="card-item">
+                    <img src="/asset/icon/hot-deal.png" alt="test" class="icon">
+                    <p class="card-judul">Jasa Paling murah</p>
+                    <p class="card-deskripsi">Biaya jasa yang saya berikan pasti murah dan terjangkau</p>
+                </div>
+                <div class="card-item">
+                    <img src="/asset/icon/rating.png" alt="test" class="icon">
+                    <p class="card-judul">30 Review</p>
+                    <p class="card-deskripsi">Mereka senang dalam bekerjasama dengan saya</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="judul">&copy; Lalu Habib Website 2022</p>
+    </footer>
+
+    <Script>
+        function redirIntagram() {
+            window.location.href ="https://instagram.com/thel0q"
+        }
+        function redirWhatshapp() {
+            window.location.href ="https://wa.me/+6281993028154"
+        }
+    </Script>
+</body>
+</html>
